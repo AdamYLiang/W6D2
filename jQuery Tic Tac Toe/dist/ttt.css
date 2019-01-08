@@ -1,0 +1,85 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+.grid {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+    /* width: 310px;
+    height: 310px; 
+    background: black;
+    border: 5px; */
+     margin: 30px auto;
+  width: 300px;
+  border: 5px solid black;
+}
+
+.tile {
+    /* background-color: gray;
+    width: 90px;
+    height: 90px;
+    list-style: none;
+    border: 5px */
+    width: 90px;
+  height: 90px;
+  border: 5px solid black;
+  background: gray;
+  cursor: pointer;
+  list-style: none;
+}
+
+.tile:hover {
+    background: yellow; 
+}
+
+ .x {
+    background: blue;
+    
+}
+
+.o {
+    background: red;
+}
+/*
+.x:after {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+  display: block;
+    content: "X";
+      width: 100%;
+margin: 0 auto;
+
+}
+
+.o:after {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    content: "O";
+} */
+.x:after,
+.o:after {
+  display: block;
+  width: 100%;
+  font-size: 60px;
+  line-height: 80px;
+    text-align:center;
+
+}
+
+.x:after {
+  content: "x";
+}
+
+.o:after {
+  content: "o";
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
