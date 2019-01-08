@@ -1,0 +1,14 @@
+/* PHASE 9: Forms */
+.content-main .thumb {
+    display: float;
+} 
+
+.content-main .input {
+    display: float; 
+    float: right;
+    background: lightgrey;
+}
+
+.form-fieldset {
+    
+}
