@@ -1,0 +1,63 @@
+html,
+body,
+figure,
+figcaption,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.stack {
+    width: 180px;
+    border-bottom: 10px solid black;
+    cursor: pointer;
+}
+
+.hanoiStacks {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+}
+
+ul:hover {
+    border-color: blue;
+
+}
+
+li {
+    height: 50px;
+    width: 0px;
+    background: gray;
+    margin: 10px auto;
+    border-radius: 25px;
+    
+}
+
+.disk-1 {
+    width: 60px;
+}
+
+.disk-2 {
+    width: 120px;
+}
+
+.disk-3{
+    width: 180px;
+}
